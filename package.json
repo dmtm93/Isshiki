@@ -1,14 +1,14 @@
 {
   "name": "isshiki",
   "version": "1.0.0",
-  "description": "\u4e00\u5f0f (Isshiki) \u2014 an all-in-one Japanese study kit: kana, kanji, vocabulary, stroke-order writing practice, grammar, and phrases, with spaced repetition.",
+  "description": "一式 (Isshiki) — an all-in-one Japanese study kit: kana, kanji, vocabulary, stroke-order writing practice, grammar, and phrases, with spaced repetition.",
   "type": "module",
   "private": true,
   "scripts": {
     "build": "node build.js",
     "serve": "python3 -m http.server 8000 --directory dist"
   },
-  "license": "MIT",
+  "license": "PolyForm-Noncommercial-1.0.0",
   "dependencies": {
     "esbuild": "^0.28.1",
     "react": "^19.2.8",
