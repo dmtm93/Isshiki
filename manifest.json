@@ -1,0 +1,16 @@
+{
+  "name": "Isshiki — All-in-One Japanese",
+  "short_name": "Isshiki",
+  "description": "An all-in-one Japanese study kit — kanji, vocabulary, and stroke-order writing practice with spaced repetition.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1C1B19",
+  "theme_color": "#1C1B19",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
