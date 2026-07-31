@@ -25,31 +25,11 @@ fetches whatever you most recently deployed.
 That only works if updates go to the *same URL* every time — which is
 exactly what a git-connected host gives you.
 
-### Recommended: Netlify or Vercel, connected to GitHub
-
-1. Push this folder to a new GitHub repository.
-2. On [netlify.com](https://netlify.com) (or [vercel.com](https://vercel.com)),
-   choose "Import from Git" and pick the repo. Both will auto-detect the
-   settings from `netlify.toml` / `vercel.json` in this repo — you
-   shouldn't need to configure anything by hand.
-3. You'll get a stable URL immediately (e.g. `isshiki.netlify.app`).
-4. From then on: **push to GitHub → site rebuilds and redeploys
-   automatically → everyone's app updates itself.** No zip files, no
-   manual redeploy step.
-
-### Optional: a custom domain
-
-Once the site is live, both Netlify and Vercel let you attach a custom
-domain (e.g. `isshiki.app`) for free — you just need to buy the domain
-itself somewhere (Namecheap, Cloudflare, etc., usually $10–20/year) and
-point its DNS at your host. Not required, just nicer for sharing.
-
 ### Why no App Store
 
 This is a PWA (Progressive Web App) — people install it straight from
 their browser via "Add to Home Screen." There's no Apple/Google review
-process, no developer fee, and no revenue cut, which fits an app you're
-giving away for free.
+process, no developer fee, and no revenue cut, which fits an app being given away for free.
 
 ## Project structure
 
@@ -61,5 +41,4 @@ dist/           build output (git-ignored, regenerated on every build)
 
 ## License
 
-MIT — do whatever you like with it. (Change this if you'd prefer
-something else; it's just a sensible free default.)
+MIT — do whatever you like with it, so long as you aren't selling, monetizing, or profiting from it in any way.
