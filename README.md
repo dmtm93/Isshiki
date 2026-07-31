@@ -41,4 +41,6 @@ dist/           build output (git-ignored, regenerated on every build)
 
 ## License
 
-MIT — do whatever you like with it, so long as you aren't selling, monetizing, or profiting from it in any way.
+License
+
+PolyForm Noncommercial License 1.0.0 — free to use, modify, and share for any non-commercial purpose. Nobody but Milky Way Media, LLC may sell, monetize, or profit from this software or any derivative of it.
